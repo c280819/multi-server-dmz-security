@@ -1,6 +1,5 @@
 # multi-server-dmz-security
 A secure multi-server architecture deployed within a DMZ, integrating web, database, and mail servers with firewall, SSL, and monitoring for enhanced network protection.
-# Multi-Server Security Architecture using DMZ
 
 ## Overview
 This project demonstrates a **multi-server architecture** deployed within a **DMZ (Demilitarized Zone)** to enhance network security. It integrates multiple servers such as Web Server, Database Server, and Mail Server with security tools, monitoring, and intrusion detection.
@@ -14,19 +13,31 @@ This project demonstrates a **multi-server architecture** deployed within a **DM
 
 ## Project Structure
 multi-server-dmz-security/
+
 ├── webserver/
+
 │ ├── app.py
+
 │ ├── requirements.txt
-│ └── venv/
+
 ├── dbserver/
+
 │ ├── mariadb-setup.sql
+
 │ └── config/
+
 ├── mailserver/
+
 │ ├── postfix-config/
+
 │ └── dovecot-config/
+
 ├── ssl-certificates/
+
 │ ├── todo.sunbeam.local.pem
+
 │ └── todo.sunbeam.local-key.pem
+
 └── README.md
 
 ## Prerequisites
